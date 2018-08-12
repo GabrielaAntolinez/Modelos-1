@@ -11,7 +11,9 @@ package banda;
  */
 public class Banda {
     Musico musicouno;
+    
     int cantidadIntegrantes;
+    
     
     public int bandaAleatoria(){
         cantidadIntegrantes= (int)(Math.random()*8)+1;
@@ -20,9 +22,14 @@ public class Banda {
     public void asignar(){
         for (int i = 1; i < cantidadIntegrantes; i++) {
             musicouno = new Musico();
-            
-            
+            musicouno.asigInst();
+       
         }
     }
+    
+    
+    
+    
+    
     
 }

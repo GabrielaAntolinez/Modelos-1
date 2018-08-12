@@ -10,12 +10,16 @@ package banda;
  * @author Estudiantes
  */
 public class Main {
-
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Banda band = new Banda();
+        System.out.println("En la Banda Aleatoria hay:");
+        band.bandaAleatoria();
+        band.asignar();
     }
     
 }

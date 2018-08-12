@@ -12,9 +12,9 @@ package banda;
 public class Voz extends Instrumen{
 
     public Voz() {
-        Nombre = "voz";
+        Nombre = "Voz";
         Tipo = "Viento";
-        afinacion = false;    
+        afinacion = false;   
         
     }
     

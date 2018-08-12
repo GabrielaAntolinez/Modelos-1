@@ -7,21 +7,16 @@ package banda;
 
 
 public class Musico {
+    Instrumen instrumento;
     Instrumen ins;
-    String Instrumento;
+    int asiginstru;
 
-    public String getInstrumento() {
-        return Instrumento;
-    }
-
-    public void setInstrumento(String Instrumento) {
-        this.Instrumento = Instrumento;
-    }
     
-    public String tocar(){
-        
+    
+    public String tocar(){  
         return "esta tocando";
     }
+    
     public String afinar(boolean afinac){
         if(afinac==true){
             return "se afino el instrumento";
@@ -29,6 +24,41 @@ public class Musico {
         }else{
             return "no es necesario afinar el intrumento";
         }        
+    }
+    
+    public void asigInst(){
+        asiginstru = (int)(Math.random()*7)+1;
+        switch(asiginstru){
+            case 1:
+                instrumento = new Guitarra();
+                instrumento.getNombre();
+                System.out.println(instrumento.getNombre());
+                break;
+            case 2: 
+                instrumento = new Piano();
+                System.out.println(instrumento.getNombre());
+                break;
+            case 3:
+                instrumento = new Voz();   
+                System.out.println(instrumento.getNombre());
+                break;
+            case 4:
+                instrumento = new Bateria();   
+                System.out.println(instrumento.getNombre());
+                break;
+            case 5:
+                instrumento = new Maracas();   
+                System.out.println(instrumento.getNombre());
+                break;
+            case 6:
+                instrumento = new Bajo();   
+                System.out.println(instrumento.getNombre());
+                break;
+            case 7:
+                instrumento = new Acordeon();   
+                System.out.println(instrumento.getNombre());
+                break;
+        }
     }
     
     

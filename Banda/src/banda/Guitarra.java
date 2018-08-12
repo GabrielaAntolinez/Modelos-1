@@ -15,7 +15,10 @@ public class Guitarra extends Instrumen {
         Nombre= "Guitarra";
         Tipo = "Cuerda";
         afinacion = true;
+        
     }
+
+ 
     
     
     
