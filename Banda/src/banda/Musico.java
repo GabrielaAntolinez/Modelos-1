@@ -17,12 +17,12 @@ public class Musico {
         return "esta tocando";
     }
     
-    public String afinar(boolean afinac){
+    public void afinar(boolean afinac){
         if(afinac==true){
-            return "se afino el instrumento";
+            System.out.println("Instrumento afinado:");
             
         }else{
-            return "no es necesario afinar el intrumento";
+            System.out.println("No es necesario afinar el intrumento:");
         }        
     }
     
@@ -32,31 +32,38 @@ public class Musico {
             case 1:
                 instrumento = new Guitarra();
                 instrumento.getNombre();
-                System.out.println(instrumento.getNombre());
+                afinar(instrumento.getAfinacion());
+                System.out.println("-"+instrumento.getNombre());
                 break;
             case 2: 
                 instrumento = new Piano();
-                System.out.println(instrumento.getNombre());
+                afinar(instrumento.getAfinacion());
+                System.out.println("-"+instrumento.getNombre());
                 break;
             case 3:
                 instrumento = new Voz();   
-                System.out.println(instrumento.getNombre());
+                afinar(instrumento.getAfinacion());
+                System.out.println("-"+instrumento.getNombre());
                 break;
             case 4:
                 instrumento = new Bateria();   
-                System.out.println(instrumento.getNombre());
+                afinar(instrumento.getAfinacion());
+                System.out.println("-"+instrumento.getNombre());
                 break;
             case 5:
                 instrumento = new Maracas();   
-                System.out.println(instrumento.getNombre());
+                afinar(instrumento.getAfinacion());
+                System.out.println("-"+instrumento.getNombre());
                 break;
             case 6:
                 instrumento = new Bajo();   
-                System.out.println(instrumento.getNombre());
+                afinar(instrumento.getAfinacion());
+                System.out.println("-"+instrumento.getNombre());
                 break;
             case 7:
-                instrumento = new Acordeon();   
-                System.out.println(instrumento.getNombre());
+                instrumento = new Acordeon();
+                afinar(instrumento.getAfinacion());
+                System.out.println("-"+instrumento.getNombre());
                 break;
         }
     }
