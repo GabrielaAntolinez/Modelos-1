@@ -10,19 +10,23 @@ package banda;
  * @author Estudiantes
  */
 public class Banda {
-    Musico musicouno;
-    
+    Musico arrayMusicos[]=new Musico[bandaAleatoria()];
     int cantidadIntegrantes;
     
     
+    public void tocar(){  
+        System.out.println("La banda esta tocando ♪♫");
+    }
     public int bandaAleatoria(){
         cantidadIntegrantes= (int)(Math.random()*8)+1;
         return cantidadIntegrantes;
     }
     public void asignar(){
-        for (int i = 1; i < cantidadIntegrantes; i++) {
-            musicouno = new Musico();
-            musicouno.asigInst();
+        System.out.println("- "+arrayMusicos.length+" musicos.");
+        System.out.println("La banda va a afinar:");
+        for (int i = 0; i < arrayMusicos.length; i++) {
+            arrayMusicos[i] = new Musico();
+            arrayMusicos[i].crearIntrumento();
        
         }
     }

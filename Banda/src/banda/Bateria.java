@@ -14,7 +14,7 @@ public class Bateria extends Instrumen {
     public Bateria() {
         Nombre= "Bateria";
         Tipo = "Percusion";
-        afinacion = true;
+        afinacion = "- Se afinó la tension los parches de la bateria.";
     }
     
     

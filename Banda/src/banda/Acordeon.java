@@ -14,7 +14,7 @@ public class Acordeon extends Instrumen {
     public Acordeon() {
         Nombre= "Acordeon";
         Tipo = "Viento";
-        afinacion = true;
+        afinacion = "- Se afinaron las lengüetas del acordeon.";
     }
     
     

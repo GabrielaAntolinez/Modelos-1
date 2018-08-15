@@ -14,7 +14,7 @@ public class Voz extends Instrumen{
     public Voz() {
         Nombre = "Voz";
         Tipo = "Viento";
-        afinacion = false;   
+        afinacion = "- La voz esta calentando.";   
         
     }
     

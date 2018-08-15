@@ -18,8 +18,9 @@ public class Main {
         // TODO code application logic here
         Banda band = new Banda();
         System.out.println("En la Banda Aleatoria hay:");
-        band.bandaAleatoria();
         band.asignar();
+        band.tocar();
+        
     }
     
 }

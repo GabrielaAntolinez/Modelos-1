@@ -14,7 +14,7 @@ public class Guitarra extends Instrumen {
     public Guitarra() {
         Nombre= "Guitarra";
         Tipo = "Cuerda";
-        afinacion = true;
+        afinacion = "- Se afinaron las cuerdas de la guitarra.";
         
     }
 

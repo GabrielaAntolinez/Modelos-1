@@ -14,7 +14,7 @@ public class Bajo extends Instrumen {
     public Bajo() {
         Nombre= "Bajo";
         Tipo = "Cuerda";
-        afinacion = true;
+        afinacion = "- Se afinaron las cuerdas del bajo.";
     }
     
 }

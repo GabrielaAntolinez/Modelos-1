@@ -14,7 +14,7 @@ public class Maracas extends Instrumen {
     public Maracas() {
         Nombre= "Maracas";
         Tipo = "Percusion";
-        afinacion = false;
+        afinacion = "- Las maracas no se afinan.";
     }
     
     

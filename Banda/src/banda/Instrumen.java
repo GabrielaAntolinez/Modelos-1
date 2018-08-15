@@ -12,7 +12,7 @@ package banda;
 public abstract class Instrumen {
     String Nombre;
     String Tipo;
-    Boolean afinacion;
+    String afinacion;
     public Instrumen() {
    
     }
@@ -33,11 +33,11 @@ public abstract class Instrumen {
         this.Tipo = Tipo;
     }
 
-    public Boolean getAfinacion() {
+    public String getAfinacion() {
         return afinacion;
     }
 
-    public void setAfinacion(Boolean afinacion) {
+    public void setAfinacion(String afinacion) {
         this.afinacion = afinacion;
     }
 

@@ -14,7 +14,7 @@ public class Piano extends Instrumen {
     public Piano() {
         Nombre = "Piano";
         Tipo = "cuerda";
-        afinacion = true;
+        afinacion = "- Se afinaron las cuerdas del piano.";
     }
     
     
