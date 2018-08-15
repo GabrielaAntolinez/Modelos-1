@@ -8,7 +8,6 @@ package banda;
 
 public class Musico {
     Instrumen instrumento;
-    Instrumen ins;
     int asiginstru;
 
     
@@ -51,6 +50,8 @@ public class Musico {
        
     }
     
-    
+    public void tocando(){
+        System.out.println("- "+instrumento.getNombre()+" esta tocando ♪");
+    }
     
 }

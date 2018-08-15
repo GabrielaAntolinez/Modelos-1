@@ -16,6 +16,9 @@ public class Banda {
     
     public void tocar(){  
         System.out.println("La banda esta tocando ♪♫");
+        for (int i = 0; i < arrayMusicos.length; i++) {
+            arrayMusicos[i].tocando();
+        }
     }
     public int bandaAleatoria(){
         cantidadIntegrantes= (int)(Math.random()*8)+1;
@@ -27,7 +30,6 @@ public class Banda {
         for (int i = 0; i < arrayMusicos.length; i++) {
             arrayMusicos[i] = new Musico();
             arrayMusicos[i].crearIntrumento();
-       
         }
     }
     
