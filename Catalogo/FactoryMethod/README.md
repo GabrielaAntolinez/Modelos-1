@@ -1,4 +1,4 @@
-# Factory Method (El método de fábrica)
+# Factory Method (El método de la fábrica)
 
   # Propósito 
   
@@ -17,4 +17,6 @@
   * ProductoConcreto: es la clase que implementa la interfaz de Producto.
   * Creator: es una clase abstracta o una interfaz que declara el factory method el cual retorna un objeto del tipo Producto.
   * ConcretCreator: Sobreescribe el factory method que devuelve una instancia de ProductoConcreto
+  
+  
   
