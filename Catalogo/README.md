@@ -1,8 +1,8 @@
 
 # Catálogo de Patrones de Progrmación
 _El presente documento cuenta con los siguientes patrones:_
-* Abstract factory
-* Factory method
+* Abstract factory: https://bit.ly/2FYeeie
+* Factory method: 
 * Builder
 * Prototype
 * Singleton
