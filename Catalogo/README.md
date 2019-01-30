@@ -1,12 +1,12 @@
 
 # Catálogo de Patrones de Progrmación
 _El presente documento cuenta con los siguientes patrones:_
-* Abstract factory: https://bit.ly/2FYeeie
+* Abstract factory: https://github.com/GabrielaAntolinez/Modelos-1/tree/Cat%C3%A1logo/Catalogo/AbstractFactory
 * Factory method: 
 * Builder
 * Prototype
 * Singleton
-* Adapter
+* Adapter: https://github.com/GabrielaAntolinez/Modelos-1/tree/Cat%C3%A1logo/Catalogo/Adapter
 * Composite
 * Decorator
 * Facade
