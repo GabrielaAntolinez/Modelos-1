@@ -11,8 +11,8 @@ este prototipo, estos objetos resultan siendo clones. Es usado cuando se desea m
 
 ### Participantes:
 * Prototype: Se genera una interfaz para clonarse a sí mismo.
-* Client: crea un nuevo objeto pidiéndole a un Prototipo que se clone. 
-* PrototipoConcreto: implementa la operación para clonarse él mismo.
+* Client: Produce un nuevo objeto requiriendo la clonación a Prototype. 
+* PrototipoConcreto: Implementa los métodos para clonarse a sí mismo.
 
 
 Información utilizada:
