@@ -15,3 +15,11 @@ _Realiza una separación de la construcción de un objeto complejo de su represe
      _BuilderConcreto: Posee los métodos del Builder implementados, por lo que fabrica y acopla las partes del objeto complejo._
      
      _Director: Genera un objeto utilizando la interfaz de Constructor, la cual es pasada como parametro._
+     
+     
+ Información utilizada: 
+ 
+ 
+ http://java-white-box.blogspot.com/2014/11/patrones-de-diseno-patron-builder-que.html
+ 
+ https://drive.google.com/file/d/0BywiVyFlIabXSnBjU19jbndVUG8/view
