@@ -1,7 +1,7 @@
 # Builder
 
 ```
-TIPO: Creacional
+Tipo:Creacional
 ```
 _Realiza una separación de la construcción de un objeto complejo de su representación, por lo que se puedan crear distintas representacione de un mismo modo proceso de construcción._
 
