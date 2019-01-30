@@ -7,7 +7,6 @@ _El presente documento cuenta con los siguientes patrones:_
 * Prototype
 * Singleton
 * Adapter
-* Bridge
 * Composite
 * Decorator
 * Facade
