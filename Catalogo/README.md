@@ -1,9 +1,17 @@
 
 # Catálogo de Patrones de Progrmación
 _El presente documento cuenta con los siguientes patrones:_
-
-
-
+* Abstract factory
+* Factory method
+* Builder
+* Prototype
+* Singleton
+* Adapter
+* Bridge
+* Composite
+* Decorator
+* Facade
+* Proxy
 
 
 
