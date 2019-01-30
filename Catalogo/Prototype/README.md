@@ -2,6 +2,9 @@
 ```
 Tipo: Creacional
 ```
+### Propósito:
+_Determina el tipo de objeto a crear utilizando una instancia prototípica y genera nuevos objetos reproduciendo 
+este prototipo._
 
 
 
