@@ -13,8 +13,8 @@
 
   # Participantes en la estructura
   
-  Producto: define una interfaz o clase abstracta para los objetos que crea el factory method que devuelve un objeto de tipo Producto.
-  ProductoConcreto: es la clase que implementa la interfaz de Producto.
-  Creator: es una clase abstracta o una interfaz que declara el factory method el cual retorna un objeto del tipo Producto.
-  ConcretCreator: Sobreescribe el factory method que devuelve una instancia de ProductoConcreto
+  * Producto: define una interfaz o clase abstracta para los objetos que crea el factory method que devuelve un objeto de tipo Producto.
+  * ProductoConcreto: es la clase que implementa la interfaz de Producto.
+  * Creator: es una clase abstracta o una interfaz que declara el factory method el cual retorna un objeto del tipo Producto.
+  * ConcretCreator: Sobreescribe el factory method que devuelve una instancia de ProductoConcreto
   
