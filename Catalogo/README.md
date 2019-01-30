@@ -1,4 +1,15 @@
 
+# Catálogo de Patrones de Progrmación
+_El presente documento cuenta con los siguientes patrones:_
+
+
+
+
+
+
+
+
+
 ## Natalia Andrea Melendez Mejia 20161020115
 
 
