@@ -11,4 +11,5 @@ este prototipo. Es usado cuando se desea mayor independencia y especificidad en 
 
 ### Participantes:
 * Prototype:
-*
+* Client: 
+* PrototipoConcreto:
