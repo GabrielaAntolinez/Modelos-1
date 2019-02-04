@@ -16,3 +16,6 @@ _Dispone una interfaz para la generación de familias de objetos relacionados o 
 * _AbstractProduct_: crea la base para los productos concretos.
 * _Producto_: implementa "AbtracProduct" definindo concretamente las especificaciones de dicho producto correspondiente a una de las fabricas concretas.
 * _CLient_: Unicamente esat relacionada con las clases abtractas, es decir "AbstractFactory" y "AbstractProduct".
+
+
+https://goo.gl/B5H1KB
