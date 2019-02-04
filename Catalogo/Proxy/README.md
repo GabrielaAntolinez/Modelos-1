@@ -17,4 +17,5 @@ _Intenta proporcionar un objeto inmediato que represente el objeto original, con
 * _ElementoProxy_: controla el acceso y el uso de las funciones del objeto real, manteniendo una referencia a él.
 
 https://goo.gl/p17vRM
+
 https://goo.gl/tDDqnE
