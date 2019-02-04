@@ -15,3 +15,7 @@ _además de proporcionar un punto de acceso global._
 * Se declara el constructor de la clase ("Singleton()") como privado para que no se pueda accedere directamente a él.
 * Para obtener la instancia se usa un proceso dentro del singleton ("Instance()").
 * Aqui solo interviene la clase Singleton.
+
+
+https://goo.gl/LEZ2uR
+https://goo.gl/aV3scE
