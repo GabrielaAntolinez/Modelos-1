@@ -11,7 +11,7 @@ _El presente documento cuenta con los siguientes patrones:_
 * Decorator: https://github.com/GabrielaAntolinez/Modelos-1/tree/Cat%C3%A1logo/Catalogo/Decorador
 * Facade: https://github.com/GabrielaAntolinez/Modelos-1/tree/Cat%C3%A1logo/Catalogo/Facade
 * Proxy: https://github.com/GabrielaAntolinez/Modelos-1/tree/Cat%C3%A1logo/Catalogo/Proxy
-* Flyweight: https://github.com/GabrielaAntolinez/Modelos-1/blob/Cat%C3%A1logo/Catalogo/Flyweight/README.md
+* Flyweight: https://github.com/GabrielaAntolinez/Modelos-1/tree/Cat%C3%A1logo/Catalogo/Flyweight
 
 
 
